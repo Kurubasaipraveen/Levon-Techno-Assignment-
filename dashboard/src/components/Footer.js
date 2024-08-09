@@ -1,13 +1,13 @@
+// src/components/Footer.js
 import React from 'react';
-import { Box, Typography } from '@mui/material';
-function Footer() {
-  return (
-    <Box component="footer" sx={{ p: 2, backgroundColor: '#f5f5f5' }}>
-      <Typography variant="body2" color="textSecondary" align="center">
-        © 2024 My Dashboard
-      </Typography>
-    </Box>
-  );
+import '../styles/Footer.css';
+
+const Footer = () => {
+    return (
+        <footer className="footer">
+            <p>&copy; 2023 Bare Kaab. All rights reserved.</p>
+        </footer>
+    );
 }
 
 export default Footer;

@@ -1,0 +1,16 @@
+
+
+.score-details {
+    margin-top: 1rem;
+}
+
+.details-button {
+    display: block;
+    margin: 1rem auto 0;
+    padding: 0.5rem 2rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

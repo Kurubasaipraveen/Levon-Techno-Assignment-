@@ -1,0 +1,56 @@
+/* Dashboard.css */
+
+/* Main dashboard container */
+.dashboard-container {
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+/* Overview section styling */
+.overview {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.dashboard-stats {
+    background-color: #f4f4f4;
+    
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+    height: 100px;
+   
+}
+
+/* Charts section styling */
+.charts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.chart {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 48%; /* Two items in one row */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .overview {
+        flex-direction: column;
+    }
+
+    .dashboard-stats, .chart {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .charts {
+        flex-direction: column;
+    }
+}

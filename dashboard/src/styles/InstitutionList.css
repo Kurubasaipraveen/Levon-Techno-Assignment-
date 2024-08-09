@@ -1,0 +1,9 @@
+
+.institution-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.institution-list li {
+    margin-bottom: 0.5rem;
+}

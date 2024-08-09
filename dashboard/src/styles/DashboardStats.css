@@ -1,0 +1,30 @@
+.dashboard-stats{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-between;
+}
+.stat-itemone{
+    background-color: rgb(218, 153, 69);
+    padding: 10px;
+    height: 50px;
+    margin: 10px;
+}
+.stat-item2{
+    background-color: rgb(218, 153, 69);
+    padding: 10px;
+    height: 50px;
+    margin: 10px;
+}
+.stat-item3{
+    background-color: rgb(218, 153, 69);
+    padding: 10px;
+    height: 50px;
+    margin: 10px;
+}
+.stat-item4{
+    background-color: rgb(218, 153, 69);
+    padding: 10px;
+    height: 50px;
+    margin: 10px;
+}

@@ -1,33 +1,24 @@
 import React from 'react';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
-import { CssBaseline, Container } from '@mui/material';
-import { Provider } from 'react-redux';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
-import MainContent from './components/MainContent';
-import Footer from './components/Footer';
-import store from './redux/store';
+import Dashboard from './components/Dashboard';
 import './App.css';
-const theme = createTheme();
 
 function App() {
   return (
-    <Provider store={store}>
-      <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <Router>
-          <Header />
-          
-          <Container>
-            <Routes>
-              <Route path="/" element={<MainContent />} />
-            </Routes>
-          </Container>
-          <Footer />
-        </Router>
-      </ThemeProvider>
-    </Provider>
+    <div className="app">
+   
+        <Header />
+        <div className="main-content">
+          <Sidebar />
+          <div className='dash'>
+            <h1>Overview</h1>
+            <Dashboard/>
+          </div>
+        </div>
+      
+    </div>
   );
 }
 
